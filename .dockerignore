@@ -1,0 +1,8 @@
+.cache/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+RELEASE_REPORT.md
+**/*_test.go

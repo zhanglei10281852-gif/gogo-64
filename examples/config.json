@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "yard": {
+    "id": "WBKH",
+    "name": "Westbrook Hump Yard",
+    "crest_grade_pct": 2.4,
+    "long_car_ft": 89,
+    "overflow_track": "C08",
+    "repair_track": "C09",
+    "coupler_slack_ft": 2
+  },
+  "blocks": [
+    {
+      "id": "EAST",
+      "name": "Eastbound manifest",
+      "priority": 10,
+      "destinations": ["ALB", "BOS", "PTL"],
+      "flat_switch": false
+    },
+    {
+      "id": "SOUTH",
+      "name": "Southern connection",
+      "priority": 20,
+      "destinations": ["ATL", "CHT", "SAV"],
+      "flat_switch": false
+    },
+    {
+      "id": "WEST",
+      "name": "Western transcon",
+      "priority": 30,
+      "destinations": ["DEN", "SLC"],
+      "flat_switch": false
+    },
+    {
+      "id": "LOCAL",
+      "name": "Local industry turn",
+      "priority": 40,
+      "destinations": ["GRV", "WBK"],
+      "flat_switch": false
+    },
+    {
+      "id": "HOLD",
+      "name": "Hold and rehandle",
+      "priority": 90,
+      "destinations": ["HLD"],
+      "flat_switch": true
+    },
+    {
+      "id": "RIP",
+      "name": "Repair in place",
+      "priority": 95,
+      "destinations": ["RIP"],
+      "flat_switch": true
+    }
+  ],
+  "classification_tracks": [
+    {
+      "id": "C01",
+      "block": "EAST",
+      "capacity_ft": 3200,
+      "weight_limit_tons": 6000,
+      "grade_pct": 1.2,
+      "restrictions": [],
+      "caboose_spot": false,
+      "retarder_id": "RG1"
+    },
+    {
+      "id": "C02",
+      "block": "EAST",
+      "capacity_ft": 3000,
+      "weight_limit_tons": 5500,
+      "grade_pct": 1.1,
+      "restrictions": [],
+      "caboose_spot": false,
+      "retarder_id": "RG1"
+    },
+    {
+      "id": "C03",
+      "block": "SOUTH",
+      "capacity_ft": 2800,
+      "weight_limit_tons": 5200,
+      "grade_pct": 1.0,
+      "restrictions": [],
+      "caboose_spot": false,
+      "retarder_id": "RG2"
+    },
+    {
+      "id": "C04",
+      "block": "SOUTH",
+      "capacity_ft": 2600,
+      "weight_limit_tons": 5000,
+      "grade_pct": 0.9,
+      "restrictions": ["no-placard"],
+      "caboose_spot": false,
+      "retarder_id": "RG2"
+    },
+    {
+      "id": "C05",
+      "block": "WEST",
+      "capacity_ft": 3000,
+      "weight_limit_tons": 5600,
+      "grade_pct": 1.3,
+      "restrictions": [],
+      "caboose_spot": false,
+      "retarder_id": "RG2"
+    },
+    {
+      "id": "C06",
+      "block": "LOCAL",
+      "capacity_ft": 1800,
+      "weight_limit_tons": 3600,
+      "grade_pct": 0.6,
+      "restrictions": [],
+      "caboose_spot": true,
+      "retarder_id": "RG3"
+    },
+    {
+      "id": "C07",
+      "block": "LOCAL",
+      "capacity_ft": 1500,
+      "weight_limit_tons": 3000,
+      "grade_pct": 0.7,
+      "restrictions": ["no-hazmat", "no-long-car"],
+      "caboose_spot": false,
+      "retarder_id": "RG3"
+    },
+    {
+      "id": "C08",
+      "block": "HOLD",
+      "capacity_ft": 4000,
+      "weight_limit_tons": 7000,
+      "grade_pct": 1.0,
+      "restrictions": [],
+      "caboose_spot": false,
+      "retarder_id": "RG3"
+    },
+    {
+      "id": "C09",
+      "block": "RIP",
+      "capacity_ft": 1200,
+      "weight_limit_tons": 2400,
+      "grade_pct": 0.3,
+      "restrictions": ["flat-only"],
+      "caboose_spot": false,
+      "retarder_id": ""
+    }
+  ],
+  "receiving_tracks": [
+    {
+      "id": "R01",
+      "role": "receiving",
+      "capacity_ft": 6500,
+      "weight_limit_tons": 13000,
+      "lead_minutes": 15
+    },
+    {
+      "id": "R02",
+      "role": "receiving",
+      "capacity_ft": 6500,
+      "weight_limit_tons": 13000,
+      "lead_minutes": 20
+    },
+    {
+      "id": "R03",
+      "role": "receiving",
+      "capacity_ft": 5200,
+      "weight_limit_tons": 11000,
+      "lead_minutes": 25
+    }
+  ],
+  "departure_tracks": [
+    {
+      "id": "D01",
+      "role": "departure",
+      "capacity_ft": 7000,
+      "weight_limit_tons": 15000,
+      "lead_minutes": 20
+    },
+    {
+      "id": "D02",
+      "role": "departure",
+      "capacity_ft": 6500,
+      "weight_limit_tons": 14000,
+      "lead_minutes": 25
+    },
+    {
+      "id": "D03",
+      "role": "departure",
+      "capacity_ft": 5500,
+      "weight_limit_tons": 12000,
+      "lead_minutes": 15
+    }
+  ],
+  "locomotives": [
+    {
+      "id": "YE01",
+      "model": "GP38-2",
+      "length_ft": 60,
+      "weight_tons": 125,
+      "axles": 4,
+      "rated_tons": 1800,
+      "horsepower": 2000,
+      "yard_service_only": true
+    },
+    {
+      "id": "YE02",
+      "model": "GP38-2",
+      "length_ft": 60,
+      "weight_tons": 125,
+      "axles": 4,
+      "rated_tons": 1800,
+      "horsepower": 2000,
+      "yard_service_only": true
+    },
+    {
+      "id": "RD10",
+      "model": "SD40-2",
+      "length_ft": 68,
+      "weight_tons": 195,
+      "axles": 6,
+      "rated_tons": 3200,
+      "horsepower": 3000,
+      "yard_service_only": false
+    },
+    {
+      "id": "RD11",
+      "model": "SD40-2",
+      "length_ft": 68,
+      "weight_tons": 195,
+      "axles": 6,
+      "rated_tons": 3200,
+      "horsepower": 3000,
+      "yard_service_only": false
+    },
+    {
+      "id": "RD12",
+      "model": "C40-8",
+      "length_ft": 70,
+      "weight_tons": 198,
+      "axles": 6,
+      "rated_tons": 2800,
+      "horsepower": 4000,
+      "yard_service_only": false
+    },
+    {
+      "id": "RD13",
+      "model": "C40-8",
+      "length_ft": 70,
+      "weight_tons": 198,
+      "axles": 6,
+      "rated_tons": 3400,
+      "horsepower": 4000,
+      "yard_service_only": false
+    }
+  ],
+  "crews": [
+    {
+      "id": "AH1",
+      "name": "First trick hump crew",
+      "qualifications": ["flat", "hump", "inspect", "rider"],
+      "max_duty_minutes": 600,
+      "home_shift": "SA"
+    },
+    {
+      "id": "AR1",
+      "name": "First trick road crew",
+      "qualifications": ["flat", "road-train"],
+      "max_duty_minutes": 600,
+      "home_shift": "SA"
+    },
+    {
+      "id": "BH1",
+      "name": "Second trick hump crew",
+      "qualifications": ["flat", "hump", "inspect", "rider"],
+      "max_duty_minutes": 600,
+      "home_shift": "SB"
+    },
+    {
+      "id": "BR1",
+      "name": "Second trick road crew",
+      "qualifications": ["flat", "road-train"],
+      "max_duty_minutes": 600,
+      "home_shift": "SB"
+    },
+    {
+      "id": "CH1",
+      "name": "Third trick hump crew",
+      "qualifications": ["flat", "hump", "inspect", "rider"],
+      "max_duty_minutes": 600,
+      "home_shift": "SC"
+    },
+    {
+      "id": "CR1",
+      "name": "Third trick road crew",
+      "qualifications": ["flat", "road-train"],
+      "max_duty_minutes": 600,
+      "home_shift": "SC"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "SA",
+      "name": "First trick",
+      "start_minute": 0,
+      "duration_minutes": 480,
+      "hump_capacity_cars": 260,
+      "rider_count": 2
+    },
+    {
+      "id": "SB",
+      "name": "Second trick",
+      "start_minute": 480,
+      "duration_minutes": 480,
+      "hump_capacity_cars": 260,
+      "rider_count": 2
+    },
+    {
+      "id": "SC",
+      "name": "Third trick",
+      "start_minute": 960,
+      "duration_minutes": 480,
+      "hump_capacity_cars": 200,
+      "rider_count": 1
+    }
+  ],
+  "hazmat_rules": {
+    "classes": ["1.1", "2.1", "2.3", "3", "8"],
+    "incompatible_pairs": [
+      { "class_a": "1.1", "class_b": "3", "buffer_cars": 3 },
+      { "class_a": "1.1", "class_b": "8", "buffer_cars": 4 },
+      { "class_a": "2.1", "class_b": "3", "buffer_cars": 1 },
+      { "class_a": "2.3", "class_b": "8", "buffer_cars": 2 }
+    ],
+    "caboose_prohibited_classes": ["1.1", "2.3"],
+    "flat_switch_only_classes": ["1.1"],
+    "max_placards_per_track": 12,
+    "caboose_buffer_cars": 2
+  },
+  "hump_rules": {
+    "max_cut_cars": 8,
+    "max_car_length_ft": 95,
+    "retarder_max_tons": 143,
+    "rider_required_for_rough_rider": true,
+    "min_bowl_grade_pct": 0.5,
+    "cut_change_minutes": 1,
+    "cars_per_minute": 3.5,
+    "flat_minutes_per_car": 6
+  },
+  "departure_orders": [
+    {
+      "train_id": "T410",
+      "departure_track": "D01",
+      "block_order": ["EAST", "LOCAL"],
+      "max_length_ft": 6500,
+      "max_tons": 6400,
+      "max_axles": 400,
+      "locomotives": ["RD10", "RD11"],
+      "depart_minute": 690,
+      "min_cars": 10
+    },
+    {
+      "train_id": "T520",
+      "departure_track": "D02",
+      "block_order": ["SOUTH"],
+      "max_length_ft": 5200,
+      "max_tons": 2800,
+      "max_axles": 320,
+      "locomotives": ["RD12"],
+      "depart_minute": 1020,
+      "min_cars": 6
+    },
+    {
+      "train_id": "T630",
+      "departure_track": "D03",
+      "block_order": ["WEST"],
+      "max_length_ft": 4800,
+      "max_tons": 3400,
+      "max_axles": 300,
+      "locomotives": ["RD13"],
+      "depart_minute": 1320,
+      "min_cars": 5
+    }
+  ]
+}

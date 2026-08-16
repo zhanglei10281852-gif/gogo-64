@@ -1,0 +1,513 @@
+{
+  "order_id": "WBKH-2201",
+  "yard_id": "WBKH",
+  "trains": [
+    {
+      "id": "T101",
+      "arrival_minute": 30,
+      "receiving_track": "R01",
+      "inspected": true,
+      "caboose_position": 12,
+      "cars": [
+        {
+          "mark": "BNSF",
+          "number": "471203",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 110.0,
+          "axles": 4,
+          "destination": "ALB"
+        },
+        {
+          "mark": "UP",
+          "number": "218455",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 26.0,
+          "gross_tons": 128.0,
+          "axles": 4,
+          "destination": "BOS"
+        },
+        {
+          "mark": "CSXT",
+          "number": "142099",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 131.5,
+          "axles": 4,
+          "destination": "ALB"
+        },
+        {
+          "mark": "NS",
+          "number": "655412",
+          "kind": "tank",
+          "length_ft": 55,
+          "tare_tons": 34.0,
+          "gross_tons": 129.0,
+          "axles": 4,
+          "hazmat_class": "3",
+          "placard": true,
+          "destination": "CHT"
+        },
+        {
+          "mark": "GATX",
+          "number": "88317",
+          "kind": "tank",
+          "length_ft": 58,
+          "tare_tons": 35.5,
+          "gross_tons": 132.0,
+          "axles": 4,
+          "hazmat_class": "3",
+          "placard": true,
+          "destination": "CHT"
+        },
+        {
+          "mark": "TILX",
+          "number": "660201",
+          "kind": "tank",
+          "length_ft": 60,
+          "tare_tons": 36.0,
+          "gross_tons": 130.0,
+          "axles": 4,
+          "hazmat_class": "8",
+          "placard": true,
+          "destination": "ATL"
+        },
+        {
+          "mark": "UTLX",
+          "number": "990145",
+          "kind": "tank",
+          "length_ft": 57,
+          "tare_tons": 34.5,
+          "gross_tons": 128.5,
+          "axles": 4,
+          "hazmat_class": "2.1",
+          "placard": true,
+          "destination": "BOS"
+        },
+        {
+          "mark": "CN",
+          "number": "411882",
+          "kind": "flat",
+          "length_ft": 89,
+          "tare_tons": 29.0,
+          "gross_tons": 96.0,
+          "axles": 4,
+          "destination": "PTL"
+        },
+        {
+          "mark": "CP",
+          "number": "351776",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 31.0,
+          "gross_tons": 118.0,
+          "axles": 4,
+          "destination": "PTL",
+          "easy_roller": true
+        },
+        {
+          "mark": "KCS",
+          "number": "130544",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 112.0,
+          "axles": 4,
+          "destination": "SAV",
+          "rough_rider": true
+        },
+        {
+          "mark": "SOO",
+          "number": "745012",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 133.0,
+          "axles": 4,
+          "destination": "SAV"
+        },
+        {
+          "mark": "WC",
+          "number": "205338",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 25.5,
+          "gross_tons": 120.0,
+          "axles": 4,
+          "destination": "ALB"
+        }
+      ]
+    },
+    {
+      "id": "T102",
+      "arrival_minute": 90,
+      "receiving_track": "R02",
+      "inspected": false,
+      "caboose_position": 0,
+      "cars": [
+        {
+          "mark": "DTTX",
+          "number": "724110",
+          "kind": "flat",
+          "length_ft": 98,
+          "tare_tons": 42.0,
+          "gross_tons": 130.0,
+          "axles": 8,
+          "destination": "DEN"
+        },
+        {
+          "mark": "DTTX",
+          "number": "724111",
+          "kind": "flat",
+          "length_ft": 89,
+          "tare_tons": 40.0,
+          "gross_tons": 126.0,
+          "axles": 8,
+          "destination": "DEN"
+        },
+        {
+          "mark": "AOK",
+          "number": "100234",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 31.0,
+          "gross_tons": 152.0,
+          "axles": 4,
+          "destination": "SLC"
+        },
+        {
+          "mark": "EEC",
+          "number": "300117",
+          "kind": "tank",
+          "length_ft": 57,
+          "tare_tons": 34.0,
+          "gross_tons": 126.0,
+          "axles": 4,
+          "hazmat_class": "1.1",
+          "placard": true,
+          "destination": "SLC"
+        },
+        {
+          "mark": "MRL",
+          "number": "620884",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 115.0,
+          "axles": 4,
+          "destination": "DEN",
+          "bad_order": true,
+          "bad_order_why": "cracked wheel flange"
+        },
+        {
+          "mark": "GTW",
+          "number": "583201",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 117.0,
+          "axles": 4,
+          "destination": "WBK"
+        },
+        {
+          "mark": "GTW",
+          "number": "583202",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 119.0,
+          "axles": 4,
+          "destination": "WBK",
+          "restriction": "no-uncouple",
+          "drawbar_mate": "GTW 583203"
+        },
+        {
+          "mark": "GTW",
+          "number": "583203",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 118.0,
+          "axles": 4,
+          "destination": "WBK",
+          "restriction": "no-uncouple",
+          "drawbar_mate": "GTW 583202"
+        },
+        {
+          "mark": "IC",
+          "number": "470005",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 134.0,
+          "axles": 4,
+          "destination": "GRV"
+        },
+        {
+          "mark": "ATSF",
+          "number": "621990",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 26.0,
+          "gross_tons": 122.0,
+          "axles": 4,
+          "destination": "GRV",
+          "rough_rider": true
+        },
+        {
+          "mark": "SP",
+          "number": "240771",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 113.0,
+          "axles": 4,
+          "destination": "XYZ"
+        },
+        {
+          "mark": "NW",
+          "number": "118843",
+          "kind": "tank",
+          "length_ft": 57,
+          "tare_tons": 34.0,
+          "gross_tons": 127.0,
+          "axles": 4,
+          "hazmat_class": "2.3",
+          "placard": true,
+          "destination": "BOS"
+        }
+      ]
+    },
+    {
+      "id": "T103",
+      "arrival_minute": 200,
+      "receiving_track": "R03",
+      "inspected": true,
+      "caboose_position": 0,
+      "cars": [
+        {
+          "mark": "NS",
+          "number": "655500",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 114.0,
+          "axles": 4,
+          "destination": "ATL"
+        },
+        {
+          "mark": "NS",
+          "number": "655501",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 116.0,
+          "axles": 4,
+          "destination": "ATL"
+        },
+        {
+          "mark": "CSXT",
+          "number": "142100",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 132.0,
+          "axles": 4,
+          "destination": "SAV"
+        },
+        {
+          "mark": "CSXT",
+          "number": "142101",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 133.0,
+          "axles": 4,
+          "destination": "SAV"
+        },
+        {
+          "mark": "UP",
+          "number": "218500",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 26.0,
+          "gross_tons": 127.0,
+          "axles": 4,
+          "destination": "DEN"
+        },
+        {
+          "mark": "UP",
+          "number": "218501",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 26.0,
+          "gross_tons": 126.0,
+          "axles": 4,
+          "destination": "DEN"
+        },
+        {
+          "mark": "BNSF",
+          "number": "471300",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 111.0,
+          "axles": 4,
+          "destination": "SLC"
+        },
+        {
+          "mark": "TILX",
+          "number": "660300",
+          "kind": "tank",
+          "length_ft": 60,
+          "tare_tons": 36.0,
+          "gross_tons": 131.0,
+          "axles": 4,
+          "hazmat_class": "8",
+          "placard": true,
+          "destination": "SAV"
+        },
+        {
+          "mark": "GATX",
+          "number": "88400",
+          "kind": "tank",
+          "length_ft": 58,
+          "tare_tons": 35.5,
+          "gross_tons": 129.0,
+          "axles": 4,
+          "hazmat_class": "3",
+          "placard": true,
+          "destination": "ATL"
+        },
+        {
+          "mark": "NW",
+          "number": "118844",
+          "kind": "tank",
+          "length_ft": 57,
+          "tare_tons": 34.0,
+          "gross_tons": 125.0,
+          "axles": 4,
+          "hazmat_class": "2.3",
+          "placard": true,
+          "destination": "BOS"
+        },
+        {
+          "mark": "TILX",
+          "number": "660450",
+          "kind": "tank",
+          "length_ft": 60,
+          "tare_tons": 36.0,
+          "gross_tons": 128.0,
+          "axles": 4,
+          "hazmat_class": "8",
+          "placard": true,
+          "destination": "BOS"
+        },
+        {
+          "mark": "CN",
+          "number": "411900",
+          "kind": "flat",
+          "length_ft": 68,
+          "tare_tons": 28.0,
+          "gross_tons": 100.0,
+          "axles": 4,
+          "destination": "BOS",
+          "restriction": "cushion"
+        }
+      ]
+    },
+    {
+      "id": "T104",
+      "arrival_minute": 300,
+      "receiving_track": "R01",
+      "inspected": false,
+      "caboose_position": 0,
+      "cars": [
+        {
+          "mark": "WBKX",
+          "number": "500101",
+          "kind": "boxcar",
+          "length_ft": 50,
+          "tare_tons": 24.0,
+          "gross_tons": 82.0,
+          "axles": 4,
+          "destination": "WBK"
+        },
+        {
+          "mark": "WBKX",
+          "number": "500102",
+          "kind": "boxcar",
+          "length_ft": 50,
+          "tare_tons": 24.0,
+          "gross_tons": 80.0,
+          "axles": 4,
+          "destination": "WBK"
+        },
+        {
+          "mark": "WBKX",
+          "number": "500103",
+          "kind": "boxcar",
+          "length_ft": 50,
+          "tare_tons": 24.0,
+          "gross_tons": 84.0,
+          "axles": 4,
+          "destination": "GRV"
+        },
+        {
+          "mark": "WBKX",
+          "number": "500104",
+          "kind": "boxcar",
+          "length_ft": 50,
+          "tare_tons": 24.0,
+          "gross_tons": 83.0,
+          "axles": 4,
+          "destination": "GRV"
+        },
+        {
+          "mark": "HLDX",
+          "number": "900001",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.0,
+          "gross_tons": 110.0,
+          "axles": 4,
+          "destination": "HLD"
+        },
+        {
+          "mark": "BNSF",
+          "number": "471400",
+          "kind": "boxcar",
+          "length_ft": 60,
+          "tare_tons": 30.5,
+          "gross_tons": 115.0,
+          "axles": 4,
+          "destination": "PTL"
+        },
+        {
+          "mark": "UP",
+          "number": "218600",
+          "kind": "gondola",
+          "length_ft": 52,
+          "tare_tons": 26.0,
+          "gross_tons": 124.0,
+          "axles": 4,
+          "destination": "ALB"
+        },
+        {
+          "mark": "CSXT",
+          "number": "142200",
+          "kind": "covered-hopper",
+          "length_ft": 58,
+          "tare_tons": 32.0,
+          "gross_tons": 130.0,
+          "axles": 4,
+          "destination": "BOS",
+          "restriction": "flat-only"
+        }
+      ]
+    }
+  ]
+}

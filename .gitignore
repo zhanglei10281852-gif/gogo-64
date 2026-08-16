@@ -1,0 +1,13 @@
+# Local build, test and smoke artifacts. Everything the tooling generates is
+# redirected here so the working tree stays clean.
+.cache/
+
+# Compiled binaries at the repository root (the cmd/humpyard package must stay
+# tracked, so these patterns are anchored).
+/humpyard
+/humpyard.exe
+
+# Editor and OS noise
+*.swp
+.DS_Store
+Thumbs.db
