@@ -270,7 +270,7 @@ func (b *builder) finishTrain(spec config.DepartureOrder, tr *Train) {
 		})
 	}
 	if track, ok := b.cfg.DepartureByID(spec.TrackID); ok {
-		if tr.LengthFt > spec.MaxLengthFt {
+		if tr.LengthFt > track.CapacityFt {
 			tr.Findings = append(tr.Findings, config.Finding{
 				Severity: config.SeverityError,
 				Scope:    "train",
